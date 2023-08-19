@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "video": "/videos/1.mp4",
+        "date": "25.01.2023",
+        "job": "SMM-menejer",
+        "name": "Abdumannof Tursunov"
+    },
+    {
+        "id": "2",
+        "video": "/videos/2.mp4",
+        "date": "25.01.2023",
+        "job":"Frontend dasturchi",
+        "name":"Salohiddin Dilmatov"
+    },
+    {
+        "id": "3",
+        "video": "/videos/3.mp4",
+        "date": "25.01.2023",
+        "job":"Grafik dizayner",
+        "name":"Shahzoda Sunnatillayeva"
+    },
+    {
+        "id": "4",
+        "video": "/videos/4.mp4",
+        "date": "25.01.2023",
+        "job":"Art-direktor",
+        "name":"Sayfulloh Asadullayev"
+    }
+]
