@@ -9,20 +9,39 @@ body {
   background-color: #F1F0EE;
 }
 
-header {
-  width: 100%;
-  height: 80vh;
-  margin: 0 auto;
-  background: url(../img/bg.png) no-repeat;
-  background-size: 890px 480px, contain;
-  background-position: 555px 110px;
+.notfound {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
 }
-header i {
-  width: 100%;
-  height: 80px;
-  display: inline-block;
+.notfound a {
+  width: 240px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ba8d5b;
+  border-radius: 100px;
+  text-decoration: none;
+  border: 1px solid #ba8d5b;
+  color: #fff;
+  transition: 0.5s;
+  margin-top: 20px;
 }
-header nav {
+.notfound a:hover {
+  background: #fff;
+  color: #000;
+}
+.notfound p {
+  font-weight: 600;
+  font-size: 20px;
+  opacity: 0.45;
+}
+
+nav {
   width: 100%;
   background-color: #F1F0EE;
   height: 80px;
@@ -33,7 +52,7 @@ header nav {
   padding: 0 12%;
   z-index: 200;
 }
-header nav::after {
+nav::after {
   content: "";
   position: absolute;
   width: 140%;
@@ -41,13 +60,13 @@ header nav::after {
   bottom: 0;
   background: gray;
 }
-header nav .left {
+nav .left {
   height: 100%;
   width: 50%;
   display: flex;
   align-items: center;
 }
-header nav .right {
+nav .right {
   height: 100%;
   width: 50%;
   display: flex;
@@ -55,7 +74,7 @@ header nav .right {
   justify-content: end;
   gap: 40px;
 }
-header nav .right .login {
+nav .right .login {
   color: #000;
   width: 140px;
   height: 40px;
@@ -65,17 +84,34 @@ header nav .right .login {
   border-radius: 10pc;
   text-decoration: none;
   background: #fff;
+  border: 1px solid #fff;
+  transition: 0.5s;
 }
-header nav .right .login:hover {
+nav .right .login:hover {
   text-decoration: none;
   border: 1px solid #ba8d5b;
 }
-header nav .right a {
+nav .right a {
   text-decoration: none;
   color: #000;
 }
-header nav .right a:hover {
+nav .right a:hover {
   text-decoration: underline;
+}
+
+i {
+  width: 100%;
+  height: 80px;
+  display: inline-block;
+}
+
+header {
+  width: 100%;
+  height: 80vh;
+  margin: 0 auto;
+  background: url(../img/bg.png) no-repeat;
+  background-size: 890px 480px, contain;
+  background-position: 555px 110px;
 }
 header .headerLeft {
   width: 40%;
@@ -233,7 +269,7 @@ header .headerLeft a:hover {
 }
 
 .courses {
-  padding: 50px 150px;
+  padding: 50px 180px;
   margin-top: 50px;
   background: #F9F8F7;
 }
@@ -254,12 +290,12 @@ header .headerLeft a:hover {
   border: 1px solid black;
   padding: 20px;
   border-radius: 5px;
-  transition: 0.5s;
   text-decoration: none;
+  transition: 0.3s;
 }
 .courses .courses-center .courses-cards:hover {
   background-color: #fff !important;
-  border: none;
+  border: 1px solid #fff;
   box-shadow: 0 2px 18px 3px rgba(0, 0, 0, 0.05);
 }
 .courses .courses-center .courses-cards .title {
@@ -284,7 +320,7 @@ header .headerLeft a:hover {
 }
 
 .ourgraduate {
-  padding: 50px 150px;
+  padding: 50px 180px;
   margin-top: 50px;
 }
 .ourgraduate .our-top p {
@@ -321,7 +357,7 @@ header .headerLeft a:hover {
 }
 
 .comments {
-  padding: 50px 150px;
+  padding: 50px 180px;
   margin-top: 50px;
 }
 .comments .comments-top p {
@@ -332,7 +368,7 @@ header .headerLeft a:hover {
 .comments .comments-bottom {
   margin-top: 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 20px;
 }
 .comments .comments-bottom .comments-cards video {
@@ -398,7 +434,7 @@ header .headerLeft a:hover {
 }
 
 .yordam {
-  width: 72%;
+  width: 76%;
   height: 100vh;
   margin: auto;
   display: flex;
@@ -561,26 +597,29 @@ footer {
   height: 500px;
   display: flex;
   flex-direction: column;
+  font-size: 18px;
 }
 footer .asos {
-  width: 72%;
+  width: 85%;
   height: 60%;
-  margin: auto;
+  margin: 0 60px;
   display: flex;
   justify-content: end;
   align-items: center;
+}
+footer .asos .asos1 {
+  margin-top: 30px;
+  width: 30%;
 }
 footer .asos .asos1 .head-text1 {
   color: gray;
 }
 footer .asos .ahead {
-  display: flex;
   height: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
   border-bottom: solid gray 1px;
-  width: 70%;
+  width: 60%;
 }
 footer .asos .ahead .ahead1 {
   display: flex;
@@ -589,7 +628,6 @@ footer .asos .ahead .ahead1 {
 footer .asos .ahead .ahead1 .asos2 {
   display: flex;
   flex-direction: column;
-  margin-left: 60px;
 }
 footer .asos .ahead .ahead1 .asos2 .malumot {
   margin-top: 10px;
@@ -653,20 +691,21 @@ footer .asos .ahead .ahead1 .asos4 .links2 a:hover {
   text-decoration: underline;
 }
 footer .connect {
-  width: 72%;
+  width: 70%;
   height: 40%;
-  margin: auto;
+  margin: 0 140px;
 }
 footer .connect .con1 {
   display: flex;
-  align-items: center;
+  margin-top: 50px;
   justify-content: center;
+  gap: 80px;
 }
 footer .connect .con1 div {
   color: gray;
-  margin-right: 70px;
 }
 footer .connect .con1 .asos2 {
+  transform: translateX(50px);
   color: #000;
 }
 footer .connect .con1 .asos2 span {
@@ -680,4 +719,426 @@ footer .connect .con1 .asos4 {
 }
 footer .connect .con1 .asos4 span {
   color: gray;
+}
+
+.kurslar {
+  padding: 50px 150px;
+  background: #fff;
+}
+.kurslar .links {
+  display: flex;
+  align-items: center;
+}
+.kurslar .links .index {
+  text-decoration: none;
+  color: #c4c4c4;
+}
+.kurslar .links img {
+  margin-left: 5px;
+}
+.kurslar .links .kurs {
+  text-decoration: none;
+  color: #BA8D5B;
+  margin-left: 5px;
+}
+.kurslar .allcourses {
+  margin-top: 50px;
+}
+.kurslar .allcourses .all-top .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.kurslar .allcourses .all-top .top h1 {
+  display: inline-block;
+}
+.kurslar .allcourses .all-top .top input {
+  outline: none;
+  border: none;
+  width: 350px;
+  padding: 15px;
+  border-radius: 100px;
+  background-color: #F7F7F5;
+}
+.kurslar .allcourses .all-top .top input:focus {
+  outline: auto;
+}
+.kurslar .allcourses .all-top .top img {
+  position: absolute;
+  right: 165px;
+}
+.kurslar .allcourses .all-top .top .searchBar {
+  display: flex;
+  align-items: center;
+}
+.kurslar .allcourses .all-top .bottom {
+  margin-top: 20px;
+}
+.kurslar .allcourses .all-top .bottom button {
+  padding: 15px 20px;
+  border: none;
+  margin-right: 20px;
+  border-radius: 32px;
+  transition: 0.5s;
+  border: 1px solid transparent;
+}
+.kurslar .allcourses .all-top .bottom button:hover {
+  background-color: #fff;
+  border: 1px solid #BA8D5B;
+}
+.kurslar .allcourses .all-bottom {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+.kurslar .allcourses .all-bottom .all-cards {
+  text-decoration: none;
+  color: black;
+  background-color: #F7F7F5;
+  display: flex;
+  width: 48%;
+  padding: 25px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+.kurslar .allcourses .all-bottom .all-cards:hover {
+  box-shadow: 0 2px 16px 3px rgba(0, 0, 0, 0.1);
+}
+.kurslar .allcourses .all-bottom .all-cards .left {
+  padding-right: 5px;
+  width: 60%;
+}
+.kurslar .allcourses .all-bottom .all-cards .left span {
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(14, 177, 130);
+}
+.kurslar .allcourses .all-bottom .all-cards .left h2 {
+  margin-top: 40px;
+  font-size: 28px;
+  font-weight: 700;
+}
+.kurslar .allcourses .all-bottom .all-cards .left p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 25px;
+}
+.kurslar .allcourses .all-bottom .all-cards .right {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.blogs {
+  padding: 50px 150px;
+  background-color: #F7F7F5;
+}
+.blogs .links {
+  display: flex;
+  align-items: center;
+}
+.blogs .links .index {
+  text-decoration: none;
+  color: #c4c4c4;
+}
+.blogs .links img {
+  margin-left: 5px;
+}
+.blogs .links .kurs {
+  text-decoration: none;
+  color: #BA8D5B;
+  margin-left: 5px;
+}
+.blogs .allblogs {
+  margin-top: 50px;
+}
+.blogs .allblogs .all-top .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.blogs .allblogs .all-top .top h1 {
+  display: inline-block;
+}
+.blogs .allblogs .all-top .top input {
+  outline: none;
+  border: none;
+  width: 350px;
+  padding: 15px;
+  border-radius: 100px;
+  background-color: #F7F7F5;
+}
+.blogs .allblogs .all-top .top input:focus {
+  outline: auto;
+}
+.blogs .allblogs .all-top .top img {
+  position: absolute;
+  right: 165px;
+}
+.blogs .allblogs .all-top .top .searchBar {
+  display: flex;
+  align-items: center;
+}
+.blogs .allblogs .bottom {
+  margin-top: 20px;
+}
+.blogs .allblogs .bottom button {
+  padding: 15px 20px;
+  border: none;
+  margin-right: 20px;
+  border-radius: 32px;
+  transition: 0.5s;
+  border: 1px solid transparent;
+}
+.blogs .allblogs .bottom button:hover {
+  background-color: #fff;
+  border: 1px solid #BA8D5B;
+}
+.blogs .all-center {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.blogs .all-center .blogs-card {
+  background-color: #F7F7F5;
+  padding: 8px;
+  width: 31%;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.blogs .all-center .blogs-card:hover {
+  background-color: #fff;
+  box-shadow: 0 2px 16px 3px rgba(0, 0, 0, 0.1);
+}
+.blogs .all-center .blogs-card .top {
+  height: 50%;
+}
+.blogs .all-center .blogs-card .top span {
+  position: absolute;
+  background-color: #fff;
+  color: black;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 2px 5px 6px 5px;
+  margin: 5px;
+}
+.blogs .all-center .blogs-card .top img {
+  width: 100%;
+  border-radius: 5px;
+}
+.blogs .all-center .blogs-card .bottom {
+  padding-top: 15px;
+  height: 50%;
+}
+.blogs .all-center .blogs-card .bottom h6 {
+  color: rgba(0, 0, 0, 0.35);
+  display: inline-block;
+  font-size: 14px;
+}
+.blogs .all-center .blogs-card .bottom img, .blogs .all-center .blogs-card .bottom .h6 {
+  float: right;
+  margin-left: 5px;
+}
+.blogs .all-center .blogs-card .bottom h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.blogs .all-center .blogs-card .bottom p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+.login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  border: solid red 1px;
+}
+.login .login-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login .login-right {
+  background: rgb(248, 247, 239);
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login .login-right .login-in {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.login .login-right .login-in a {
+  text-decoration: none;
+  margin-top: 30px;
+  width: 180px;
+  color: rgb(38, 151, 255);
+}
+.login .login-right .login-in a:hover {
+  text-decoration: underline;
+}
+.login .login-right .login-in .kirish {
+  font-size: 30px;
+  font-weight: 600;
+}
+.login .login-right .login-in .button {
+  margin-top: 30px;
+  display: flex;
+}
+.login .login-right .login-in .button .btn {
+  outline: none;
+  border-radius: 0;
+  border: solid transparent;
+  position: relative;
+  font-size: 18px;
+  padding: 10px 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #F7F7F5;
+  text-decoration: none;
+  cursor: pointer;
+  width: 210px;
+}
+.login .login-right .login-in .button .btn::before {
+  content: "";
+  position: absolute;
+  width: 105%;
+  height: 0.5px;
+  bottom: -2px;
+  background: gray;
+}
+.login .login-right .login-in .button .btn1 {
+  color: #BA8D5B;
+}
+.login .login-right .login-in .button .btn1::after {
+  content: "";
+  position: absolute;
+  width: 105%;
+  height: 2px;
+  bottom: -2px;
+  background: #BA8D5B;
+}
+.login .login-right .login-in .button .btn2 {
+  color: gray;
+}
+.login .login-right .login-in .button .btnE1 {
+  color: gray;
+}
+.login .login-right .login-in .button .btnE1::after {
+  content: "";
+  position: absolute;
+  width: 105%;
+  height: 0.5px;
+  bottom: -2px;
+  background: gray;
+}
+.login .login-right .login-in .button .btnE2::after {
+  content: "";
+  position: absolute;
+  width: 105%;
+  height: 2px;
+  bottom: -2px;
+  background: #BA8D5B;
+}
+.login .login-right .login-in .sorov-send {
+  padding: 10px 60px;
+  border-radius: 50px;
+  font-size: 20px;
+  border: solid gray 1.5px;
+  cursor: pointer;
+  width: 400px;
+  border: solid #BA8D5B 1px;
+  margin-top: 30px;
+  background: #BA8D5B;
+  color: #fff;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.login .login-right .login-in .sorov-send:hover {
+  background: #fff;
+  text-decoration: none;
+  color: #000;
+}
+.login .login-right .login-in .image-2 {
+  background: #F1F0EE;
+  color: #000;
+  border: none;
+}
+.login .login-right .login-in .image-2 img {
+  transform: translate(-15px, 5px);
+}
+.login .login-right .login-in .image-2:hover {
+  background: #F1F0EE;
+}
+.login .login-right .login-in .register {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.login .login-right .login-in .register #ali {
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 20px;
+  cursor: text;
+  border: solid gray 1.5px;
+  width: 400px;
+}
+.login .login-right .login-in .register #ali:focus {
+  border: solid #00fbff 1px;
+  color: #000;
+}
+.login .login-right .login-in .register .ali, .login .login-right .login-in .register .tel {
+  color: gray;
+  margin-top: 30px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.login .login-right .login-in .register .tel2 {
+  padding-left: 0;
+}
+.login .login-right .login-in .register #tel {
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 20px;
+  cursor: text;
+  border: solid gray 1.5px;
+  width: 400px;
+}
+.login .login-right .login-in .register #tel:focus {
+  border: solid #00fbff 1px;
+  color: #000;
+}
+.login .login-right .login-in .register .tel3 {
+  padding-left: 60px;
+}
+.login .login-right .login-in .register .tel1::before {
+  content: "+998";
+  margin-top: 10px;
+  display: inline-block;
+  width: 37px;
+  transform: translate(20px, 30px);
+  font-size: 18px;
+  cursor: text;
+  position: absolute;
+  color: black;
+}
+.login .login-right .login-in .register #tel[type=number]::-webkit-inner-spin-button,
+.login .login-right .login-in .register #tel[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
 }/*# sourceMappingURL=style.css.map */

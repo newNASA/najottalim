@@ -1,29 +1,27 @@
 import Header from './pages/header'
-import Advantages from './pages/advantages'
-import Courses from './pages/courses'
-import Ourgraduate from './pages/ourgraduate'
-import Comments from './pages/comments'
-import Section2 from "./pages/section2";
+import Blogs from './pages/blog'
 import Nav from "./pages/nav";
-import Footer from "./pages/footer";
+import NotFound from "./pages/notfound";
+import Login from "./pages/login";
+import Kurslar from "./pages/kurslar";
+import Epochta from "./pages/epochta";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <BrowserRouter>
+    
+
       <Routes>
         <Route path='/' element={<Nav />}>
-          <div className="App">
-            <Header />
-            <Advantages />
-            <Courses />
-            <Ourgraduate />
-            <Comments />
-            <Section2/>
-            <Footer/>
-          </div>
+            <Route index element={<Header/>} />
+            <Route path='/bloglar' element={<Blogs />} />
+            <Route path='/kurslar' element={<Kurslar />} />
+            <Route path='*' element={<NotFound />} />
         </Route>
+            <Route path='/kirish' element={<Login />} />
+            <Route path='/ePochta' element={<Epochta />} />
       </Routes>
     </BrowserRouter>
   );

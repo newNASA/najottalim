@@ -1,0 +1,50 @@
+[
+    {
+        "img": "/img/courses/smm.svg",
+        "mark": "Marketing",
+        "title": "SMM onlayn",
+        "text": "Ijtimoiy tarmoqlar orqali turli biznes va loyihalarni rivojlantirishni o'rganasiz."
+    },
+    {
+        "img": "/img/courses/smd.svg",
+        "mark": "Dizayn",
+        "title": "Social Media Design",
+        "text": "Ijtimoiy tarmoqlar uchun chiroyli va samarali postlar tayyorlashni o'rganing."
+    },
+    {
+        "img": "/img/courses/dasturlash.svg",
+        "mark": "Dasturlash",
+        "title": "Dasturlash foundation",
+        "text": "Foundation dasturlash kursida C va Python dasturlash tillari va ular orqali dasturlashning mantiq-mohiyati o’rgatiladi. Kurs davomida dasturlashning fundamental tushunchalari, dasturchining ishini yengillashtirib beradigan texnologiyalar, interfeys va ma’lumotlar bazasi bilan ishlash jarayonlari haqida ma’lumotlar beriladi."
+    },
+    {
+        "img": "/img/courses/adobe.svg",
+        "mark": "Dizayn",
+        "title": "Adobe Illustrator",
+        "text": "Adobe Illustrator - vektorli grafikalar (chizmalar) bilan ishlash uchun mo'ljallangan dastur hisoblanadi."
+    },
+    {
+        "img": "/img/courses/net.svg",
+        "mark": "Dasturlash",
+        "title": ".NET mutaxassislik kursi",
+        "text": ".NET mutaxassislik kursi yordamida universal C# dasturlash tilida ishlovchi va oʻz faoliyatida .NET platformasi va texnologiyalaridan foydalanuvchi dasturchiga aylaning. C# dasturlash tilining imkoniyatlari va qoʻllash doirasi nihoyatda keng, uni mukammal bilgan dasturchi esa veb-saytlardan tortib mobil va desktop ilovalargacha, oʻyinlardan tortib kross-platformali dasturlargacha qurish imkoniyatiga ega boʻladi."
+    },
+    {
+        "img": "/img/courses/nodejs.svg",
+        "mark": "Dasturlash",
+        "title": "Node JS Telegram bot",
+        "text": "Telegram bot yasash va dasturlashni 0 dan o'rganing!"
+    },
+    {
+        "img": "/img/courses/savodxonlik.svg",
+        "mark": "Boshqa",
+        "title": "Kompyuter savodxonligi kursi",
+        "text": "Ijtimoiy tarmoqlar orqali turli biznes va loyihalarni rivojlantirishni o'rganasiz."
+    },
+    {
+        "img": "/img/courses/hbs.png",
+        "mark": "Boshqa",
+        "title": "HBC AKADEMIYASI",
+        "text": "Noldan professional darajada treyding va investitsiyalarni halol yo'lida savdo qilishni o'rgatuvchi akademiya."
+    }
+]

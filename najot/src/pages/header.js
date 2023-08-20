@@ -1,24 +1,19 @@
 import React from 'react'
 import '../styles/style.css'
+import Courses from './courses'
+import Ourgraduate from './ourgraduate'
+import Comments from './comments'
+import Section2 from "./section2"
+import Footer from "./footer";
+import Advantages from './advantages'
 import logo from '../img/logo.png'
+import { Link } from 'react-router-dom'
 
-function header() {
+function Header() {
+
     return ( 
         <>
             <header>
-                {/* <nav>
-                    <div className='left'>
-                        <a href='#'>
-                            <img src={ logo } alt='logo' />
-                        </a>
-                    </div>
-                    <div className='right'>
-                        <a href='#'>Kurslar</a>
-                        <a href='#'>Blog</a>
-                        <a href='#' className='login'>Kirish</a>
-                    </div>
-                </nav> */}
-                <i></i>
                 <div className='headerLeft'>
                     <div className='text'>
                         <h1 className='jobs'>Kasblarni</h1>
@@ -31,11 +26,17 @@ function header() {
                         <h1 className='lissen'>O'rganing</h1>
                         <p>O‘zingizga qulay vaqtda, joyda va uslubda <br/> zamonaviy kasblarni o‘rganing.</p>
                     </div>
-                    <a href="#">Kurslarni Ko'rish</a>
+                    <Link to="/kurslar">Kurslarni Ko'rish</Link>``
                 </div>
             </header>
+            <Advantages />
+            <Courses />
+            <Ourgraduate />
+            <Comments />
+            <Section2/>
+            <Footer/>
         </>
     );
 }
 
-export default header;
+export default Header;

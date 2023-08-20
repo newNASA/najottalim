@@ -1,22 +1,25 @@
 import React from 'react';
 import logo from '../img/logo.png'
+import { Outlet, Link } from 'react-router-dom';
 
 function Nav() {
     return (
-        <header>
+        <>
             <nav>
                 <div className='left'>
-                    <a href='#'>
+                    <Link to='/'>
                         <img src={ logo } alt='logo' />
-                    </a>
+                    </Link>
                 </div>
                 <div className='right'>
-                    <a href='#'>Kurslar</a>
-                    <a href='#'>Blog</a>
-                    <a href='#' className='login'>Kirish</a>
+                    <Link to='/kurslar'>Kurslar</Link>
+                    <Link to='/bloglar'>Blog</Link>
+                    <Link to='/kirish' className='login'>Kirish</Link>
                 </div>
             </nav>
-        </header>
+            <i></i>
+            <Outlet />
+        </>
     );
 }
 

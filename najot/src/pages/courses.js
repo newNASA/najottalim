@@ -1,5 +1,6 @@
 import React from 'react';
 import Courses from '../json/courses.json'
+import { Link } from 'react-router-dom';
 
 function courses() {
     return (
@@ -19,7 +20,7 @@ function courses() {
                 }) }
             </div>
             <div className='courses-bottom'>
-                <a href='#'>Barcha kurslarni ko‘rish</a>
+                <Link to='/kurslar'>Barcha kurslarni ko‘rish</Link>
             </div>
         </div>
     );

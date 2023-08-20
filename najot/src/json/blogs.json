@@ -1,0 +1,155 @@
+[
+    {
+        "mark":"Musobaqa",
+        "img":"/img/blogimg/1.webp",
+        "date":"19-aprel,2023",
+        "view":"933",
+        "title":"16-aprel kuni «Najot Ta'lim»da SMM menejer",
+        "text":"«SMM musobaqasi» bo'lib o'tdi"
+    },
+    {
+        "mark":"Master-klass",
+        "img":"/img/blogimg/2.webp",
+        "date":"19-aprel,2023",
+        "view":"243",
+        "title":"Farg'ona filialida «Engineericly» YouTube kanali asoschisi Jahongirmirzo Ibrohi",
+        "text":"«Engineericly» YouTube kanali asoschisi Jahongirmirzo Ibrohimov bilan master-klass"
+    },
+    {
+        "mark":"Musobaqa",
+        "img":"/img/blogimg/3.webp",
+        "date":"19-aprel,2023",
+        "view":"242",
+        "title":"SMM-menejer va Grafik dizaynerlar o'rtasidagi «Marketing Team» jamoaviy",
+        "text":"«Marketing Team» musobaqasi g'oliblari e'lon qilindi"
+    },
+    {
+        "mark":"Musobaqa",
+        "img":"/img/blogimg/4.webp",
+        "date":"19-aprel,2023",
+        "view":"261",
+        "title":"2-aprel kuni bo'lib o'tgan dasturlash bo'yicha «Algoritmlash» musobaqasi",
+        "text":"Dasturchilar o'rtasida «Algoritmlash» musobaqasi"
+    },
+    {
+        "mark":"Master-klass",
+        "img":"/img/blogimg/5.webp",
+        "date":"19-aprel,2023",
+        "view":"327",
+        "title":"«Iwash» va «Carbon technologies» loyihalari asoschilari bilan «Shaxsiy",
+        "text":"Otabek Jurayev va Behzodbek Shoyunusovlar bilan master-klass"
+    },
+    {
+        "mark":"Musobaqa",
+        "img":"/img/blogimg/6.webp",
+        "date":"12-aprel,2023",
+        "view":"388",
+        "title":"100 ga yaqin SMM-menejer va grafik dizaynerlar «Marketing Team»",
+        "text":"«Marketing Team» jamoaviy musobaqasi"
+    },
+    {
+        "mark":"Musobaqa",
+        "img":"/img/blogimg/7.webp",
+        "date":"12-aprel,2023",
+        "view":"323",
+        "title":"12 soat davom etgan «Frontend dasturlash» musobaqasi yakunlandi",
+        "text":"«Najot Ta'lim» markazida «Frontend veb-dasturlash» musobaqasi bo'lib o'tdi"
+    },
+    {
+        "mark":"Master-klass",
+        "img":"/img/blogimg/8.webp",
+        "date":"11-aprel,2023",
+        "view":"309",
+        "title":"Farg'ona filialida markazimiz O'quv bo'limi rahbari Javohir Izzatulloh bilan master",
+        "text":"Javohir Izzatulloh bilan Farg'ona filialida master-klass"
+    },
+
+    {
+        "mark":"Master-klass",
+        "img":"/img/blogimg/9.webp",
+        "date":"11-aprel,2023",
+        "view":"449",
+        "title":"Hasanxon Yahyo Abdulmajid domla ta'lim olish bo'yicha ilmiy suhbat tashkil etildi",
+        "text":"Ta'lim olish mavzusida ilmiy suhbat"
+    },
+    {
+        "mark":"Master-klass",
+        "img":"/img/blogimg/10.webp",
+        "date":"11-aprel,2023",
+        "view":"236",
+        "title":"«Cambridge» va «Modme» loyihalar asosichi va rahbari Jahongir Po'latov bila",
+        "text":"Jahongir Po'latov bilan «Qanday qilib muvaffaqiyatli startup qilish mumkin?» mavzusida master-klass"
+    },
+    {
+        "mark":"Musobaqa",
+        "img":"/img/blogimg/11.webp",
+        "date":"4-aprel,2023",
+        "view":"249",
+        "title":"«Najot Ta'lim»da 100 dan ortiq grafik dizaynerlar o'rtasida navbatdagi «Dizayn",
+        "text":"Grafik dizaynerlar o'rtasida katta musobaqa bo'lib o'tdi"
+    },
+    {
+        "mark":"Musobaqa",
+        "img":"/img/blogimg/12.webp",
+        "date":"4-aprel,2023",
+        "view":"294",
+        "title":"50 ga yaqin dasturchilar soha bo'yicha bilimlarini «Algoritmlash» musobaqasida",
+        "text":"«Najot Ta'lim»da «Algoritmlash» musobaqasi tashkil etildi"
+    },
+    {
+        "mark":"Master-klass",
+        "img":"/img/blogimg/13.webp",
+        "date":"4-aprel,2023",
+        "view":"170",
+        "title":"Farg'ona filialida «Qanday qilib kuchli Software engineer bo'lish mumkin?",
+        "text":"Ihtiyor Vohobjonov bilan markazimizning Farg'ona filialida master-klass tashkil etildi"
+    },
+    {
+        "mark":"Master-klass",
+        "img":"/img/blogimg/14.webp",
+        "date":"4-aprel,2023",
+        "view":"281",
+        "title":"Aziz Rahimov bilan «Yoshlikda qanday ko'nikmalarni shakllantirish kerak?»",
+        "text":"Aziz Rahimov bilan master-klass bo'lib o'tdi"
+    },
+    {
+        "mark":"Master-klass",
+        "img":"/img/blogimg/15.webp",
+        "date":"28-mart,2023",
+        "view":"146",
+        "title":"Farg'ona filialida Chexiyaning «Webtoad» kompaniyasi Frontend Engineer",
+        "text":"«Najot Ta'lim» Farg'ona filialida master-klass bo'lib o'tdi"
+    },
+    {
+        "mark":"Musobaqa",
+        "img":"/img/blogimg/16.webp",
+        "date":"28-mart,2023",
+        "view":"174",
+        "title":"11-mart kuni o'tkazilgan «Frontend dasturlash» musobaqasi g'oliblari e'lon",
+        "text":"«Frontend dasturlash» musobaqasi g'oliblariga sertifikat va esdalik sovg'alari topshirildi"
+    },
+    {
+        "mark":"Najot Quiz",
+        "img":"/img/blogimg/17.webp",
+        "date":"28-mart,2023",
+        "view":"339",
+        "title":"Markazimizda ilk bor «Najot Quiz» musobaqasi tashkil etildi. Yakunda 40 ga",
+        "text":"300 ga yaqin o'quvchilarimiz «Najot Quiz» musobaqasida bellashishdi!"
+    },
+    {
+        "mark":"Bitiruv marosimi",
+        "img":"/img/blogimg/18.webp",
+        "date":"28-mart,2023",
+        "view":"397",
+        "title":"132 nafar «Najot Ta'lim» o'quvchilariga bitiruv sertifikatlari va umumiy qiymati",
+        "text":"25-mart — shanba kuni markazimizning Chilonzor filialida Bitiruv marosimi bo'lib o'tdi."
+    },
+    {
+        "mark":"Dasturlash",
+        "img":"/img/blogimg/19.webp",
+        "date":"7-mart,2023",
+        "view":"516",
+        "title":"Python dasturlash tilini o’rganish uchun 7 ta bepul sayt",
+        "text":"Bu saytlar bilan dasturlashni bepulga o'rganasiz"
+    }
+]
